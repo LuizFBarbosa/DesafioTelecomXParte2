@@ -135,15 +135,15 @@ pip install dash dash-bootstrap-components plotly pandas scikit-learn numpy
 ### Execução padrão
 
 ```bash
-python telecom_churn_radar.py dados/dadosTratados.csv
+python pyTelecomXChurnRadar.py dados/telecomXdados.csv
 ```
 
-> O arquivo `dados/dadosTratados.csv` deve estar na pasta `dados/` na raiz do projeto.
+> O arquivo `dados/telecomXdados.csv` deve estar na pasta `dados/` na raiz do projeto.
 
 ### Especificando outro arquivo de dados
 
 ```bash
-python telecom_churn_radar.py dados/meus_dados.csv
+python pyTelecomXChurnRadar.py dados/meus_dados.csv
 ```
 
 ### Acessar o dashboard
@@ -202,12 +202,12 @@ http://localhost:8050
 ```
 telecom-x-churn-radar/
 │
-├── telecom_churn_radar.py      # Script principal — pipeline + dashboard
+├── pyTelecomXChurnRadar.py      # Script principal — pipeline + dashboard
 ├── requirements.txt            # Dependências do projeto
 ├── README.md                   # Este arquivo
 │
 ├── dados/                      # Dados de entrada
-│   └── dadosTratados.csv       # Dataset principal (não incluído no repo)
+│   └── telecomXdados.csv       # Dataset principal (não incluído no repo)
 │
 ├── imagens/                    # Imagens do projeto
 │   ├── desafioTelecomX.png     # Banner do repositório
@@ -305,6 +305,24 @@ Com base nos resultados do modelo, o playbook recomendado para evitar novos chur
 
 ---
 
+# 🔖 Video Explicativo da análise
+<br>
+<a href="https://www.youtube.com/watch?v=TMOXRF2DVOU" target="_blank">
+  <img 
+    src="imagens/videoDesafio.png" 
+    alt="Desafio TelecomX - Parte 2" 
+    width="50%" 
+    style="
+      border: 3px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.5)'"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'"
+  />
+</a><br>
+
 ## Autor
 
 <div align="center">
@@ -313,8 +331,8 @@ Com base nos resultados do modelo, o playbook recomendado para evitar novos chur
 
 Challenge Telecom X — Parte 2 · Projeto de Ciência de Dados
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![Blog Badge](https://img.shields.io/badge/Blog-ProvadeConceito-black)](http://provadeconceito.wordpress.com)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-fernando-barbosa-51a78938/)](https://www.linkedin.com/in/luiz-fernando-barbosa-51a78938/)
 
 </div>
 
