@@ -100,7 +100,7 @@ P(churn) = 0.45 × Random Forest
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/telecom-x-churn-radar.git
+git clone https://github.com/LuizFBarbosa/DesafioTelecomXParte2.git
 cd telecom-x-churn-radar
 ```
 
